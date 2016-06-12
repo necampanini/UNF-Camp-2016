@@ -13,6 +13,8 @@ Data Types
 //Basic variable assignment
 var x = 'Hello, World!';
 
+console.log(x);
+
 //but don't do this...
 x = 'Oh crap. Global variable.'
 
@@ -37,7 +39,24 @@ function add(x,y) {
     console.log(result);
 };
 
+var Yahoo = Yahoo || {};
+
+Yahoo.DataServices = {
+
+}
+
+
+
 //NOTE: Functions are FIRST CLASS Objects in JS. Meaning you can pass them as arguments.
+
+var obj = {
+    property: 'value',
+
+}
+
+
+
+
 
 //logic
 if(5 > 1) {
