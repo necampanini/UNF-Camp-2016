@@ -1,5 +1,5 @@
 <img src="http://static1.squarespace.com/static/538e3432e4b0cbbd0e23fc4a/t/54bfe02ee4b09fae31538708/1460822589537/?format=200w"/>
-<img src="https://upload.wikimedia.org/wikipedia/en/8/87/UNF_logo.png/?format=200w"/>
+<img src="https://upload.wikimedia.org/wikipedia/en/8/87/UNF_logo.png"/>
 ---
 
 ###Note for Students
