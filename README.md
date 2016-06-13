@@ -52,8 +52,8 @@ We also recommend the book [Version Control by Example](http://ericsink.com/vcbe
 
 ---
 
-#### TBD
+#### PHP 101 and Introduction to Laravel Framework
 **Date:** July 30th, 2016
-**Speaker:** TBD
+**Speaker:** Frank Ray (IntuitiveReason)
 
 ---
