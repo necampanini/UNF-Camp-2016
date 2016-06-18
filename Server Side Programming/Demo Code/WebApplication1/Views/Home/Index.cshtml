@@ -1,0 +1,15 @@
+﻿@model List<WebApplication1.Models.BlogEntry>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Hello UNF!</h1>
+
+<a href="/Home/Create">Create New Post</a>
+
+@foreach (var post in Model)
+{
+    <h2><a href="/Home/Detail/@post.Id">@post.Title</a></h2>
+    <p>@post.Body</p>
+    <hr />
+}
