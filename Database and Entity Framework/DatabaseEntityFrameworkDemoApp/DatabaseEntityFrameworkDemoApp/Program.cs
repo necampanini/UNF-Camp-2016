@@ -88,6 +88,7 @@ namespace DatabaseEntityFrameworkDemoApp
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime DateCreated { get; set; }
 
+        // NOTE: We recommend to NOT use navigation properties, but you can if you want.
         public ICollection<BlogPostComment> Comments { get; set; }
     }
 
@@ -104,6 +105,7 @@ namespace DatabaseEntityFrameworkDemoApp
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime DateCreated { get; set; }
 
+        // NOTE: We recommend to NOT use navigation properties, but you can if you want.
         public BlogPost BlogPost { get; set; }
     }
 
