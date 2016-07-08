@@ -52,6 +52,9 @@ pwd
 * Remember your username and password.
 * Give me your GitHub user name. Do it.
 * Wait for everyone to have given me their usernames.
+* In the meanwhile, go here: https://www.sublimetext.com/
+* Download and install the Sublime Text editor. A lightweight versatile text editor.
+* Defaults are fine. Add Sublime option to right click context if desired.
 * Wait for me to enter in everyone's usernames as Collaborators on the following project:
 * Navigate here: https://github.com/necampanini/UNF-Camp-2016
 * Find the clone/download link. (Hint, the button is big and green) 
@@ -59,7 +62,7 @@ pwd
 
 Pulling Down A Repository
 -------------------------
-### Step 3.5 - Git More
+### Step 3.5 - Git To Know You.
 * Git doesn't know who you are.
 * You will be unable to make commits and Git like that until it does.
 * The minimum it needs to know is your name and email.
@@ -72,7 +75,6 @@ git config --global user.email nick@feature23.com
 ```
 
 
-
 ### Step 4 - Git Clone
 * Back to grabbing some code! Type:
 
@@ -81,7 +83,7 @@ pwd
 ```
 
 * pwd is short for: 'print working directory'
-* Git Bash should spit out '/c/Projects'
+* Git Bash should spit out '/c/Projects/GitDemo'
 * If it doesn't, go back to Step 2 to try again.
 * After ensuring you are in the correct directory... 
 * Ensure you have the GitHub repository URL copied
@@ -103,3 +105,8 @@ git clone {insert key}
 * You now have a copy of this project. The entirety of it. All of it's history.
 * Every committed line of code, every message, literally all recorded history that makes up the project.
 * This is the case for every project you clone via Git.
+* Wow!
+
+* What's more, is that since you cloned this git repository, git know's its roots.
+* Since I've added you all as collaborators to this git project via GitHub...
+* ...you can now push new commits and branches with full rights.
