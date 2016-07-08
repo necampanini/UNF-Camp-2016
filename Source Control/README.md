@@ -7,14 +7,15 @@ Preparing your environment
 * Git is something running on your computer. Not a website.
 * You will interact with it in order to save and share work.
 * Go download it here for your respective operating system:
-* ##### https://git-scm.com/downloads
+* https://git-scm.com/downloads
 * Installer defaults are fine.
 
 ### Step 2 - Git Bash
 * If you are unfamiliar with a terminal, DO NOT SKIP THIS.
+* (I'll use the words terminal, Git Bash, and command line interchangeably)
 * You need to know 2 basic commands while operating in the terminal:
-1. cd
-2. ls
+1. cd - 'see dee'
+2. ls - 'elle ess'
 * 'cd' is short for 'change directory'.
 * 'ls' is short for 'list segments'. You'll use it to see the contents of the directory you're currently in.
 * Both can be explicit or context based.
@@ -24,16 +25,27 @@ Preparing your environment
 ```
 mkdir /c/Projects
 cd /c/Projects
-ls -la
+pwd
+```
+
+### Step 2.5 - Git Bash More 
+
+* Never hesitate to type pwd or ls. Always know where you are operating.
+* Keep going:
+
+```
+mkdir GitDemo
+cd GitDemo
+pwd
 ```
 
 * You just made an empty folder called Projects at the root level of your C drive.
 * You then changed the directory Git Bash is looking at, to said Projects folder.
 * This isn't necessary. You can have your repositories anywhere on your system.
 * This is a convention and one I recommend using.
-* Finally, you listed out all the folder contents, including itself, and the parent folder ('.' and '..' respectively)
-* (Optional), go here for more practice:
-* ##### http://cli.learncodethehardway.org/book/
+
+* Then you made another folder in the Projects folder, then moved into it.
+* Finally, you printed the working directory to verify your location.
 
 ### Step 3 - Git Hub
 * Sign up for a Github account.
@@ -44,8 +56,25 @@ ls -la
 * Navigate here: https://github.com/necampanini/UNF-Camp-2016
 * Find the clone/download link. (Hint, the button is big and green) 
 
+
+Pulling Down A Repository
+-------------------------
+### Step 3.5 - Git More
+* Git doesn't know who you are.
+* You will be unable to make commits and Git like that until it does.
+* The minimum it needs to know is your name and email.
+* This information is attached to your git operations and commits.
+* So, give it that information (provide your own, not mine)
+
+```
+git config --global user.name "Nick Campanini"
+git config --global user.email nick@feature23.com
+```
+
+
+
 ### Step 4 - Git Clone
-* Back in Git Bash, type the following:
+* Back to grabbing some code! Type:
 
 ```
 pwd
@@ -54,7 +83,10 @@ pwd
 * pwd is short for: 'print working directory'
 * Git Bash should spit out '/c/Projects'
 * If it doesn't, go back to Step 2 to try again.
-* Ensuring you are in the correct directory, type the following:
+* After ensuring you are in the correct directory... 
+* Ensure you have the GitHub repository URL copied
+* (hit that big green button and click the little clipboard)
+* Back in Git Bash, type the following:
 
 ```
 git clone {insert key}
