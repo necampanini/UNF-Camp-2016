@@ -164,5 +164,5 @@ git commit -m "added my name to index.html"
 
 * Now let's walk through the student list and push/Pulling
 
-### Step 9 - Git Storm
+### Step 10 - Git Storm
 * Always use Git Status and Git Pull before attempting to Git Push
